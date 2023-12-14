@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DDCB4815-71A6-2267-59EE-460CA8A9004F}|Assembly-CSharp.csproj|c:\\users\\sheil\\onedrive - change maker education\\future games\\unity\\2d_game\\assets\\scripts\\endmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDCB4815-71A6-2267-59EE-460CA8A9004F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\endmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDCB4815-71A6-2267-59EE-460CA8A9004F}|Assembly-CSharp.csproj|c:\\users\\sheil\\onedrive - change maker education\\future games\\unity\\2d_game\\assets\\scripts\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDCB4815-71A6-2267-59EE-460CA8A9004F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\startmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,6 +51,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EndMenu.cs",
+              "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\EndMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EndMenu.cs",
+              "ToolTip": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\EndMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EndMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T12:14:41.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "StartMenu.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\StartMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StartMenu.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Finish.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\Finish.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Finish.cs",
@@ -67,12 +84,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Finish.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-12T13:14:28.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-12T13:14:28.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ItemCollector.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\ItemCollector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemCollector.cs",
@@ -80,12 +96,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ItemCollector.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-12T10:22:34.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-12T10:22:34.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
@@ -93,12 +108,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAYwCoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-12T10:03:34.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-12T10:03:34.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Rotate.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\Rotate.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rotate.cs",
@@ -106,12 +120,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Rotate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-06T17:57:41.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-06T17:57:41.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StickPlatform.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\StickPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StickPlatform.cs",
@@ -119,12 +132,11 @@
               "RelativeToolTip": "Assets\\Scripts\\StickPlatform.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T18:04:37.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-05T18:04:37.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "WaypointFollower.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\WaypointFollower.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WaypointFollower.cs",
@@ -132,12 +144,11 @@
               "RelativeToolTip": "Assets\\Scripts\\WaypointFollower.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-05T17:46:37.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-05T17:46:37.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerLife.cs",
               "DocumentMoniker": "C:\\Users\\sheil\\OneDrive - Change Maker Education\\Future Games\\Unity\\2D_Game\\Assets\\Scripts\\PlayerLife.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLife.cs",
@@ -145,8 +156,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerLife.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-12-01T18:14:56.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-12-01T18:14:56.207Z"
             }
           ]
         }

@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 1289424960}
   - component: {fileID: 1289424963}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Quit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,8 +652,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1289424963}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: StartGame
+        m_TargetAssemblyTypeName: EndMenu, Assembly-CSharp
+        m_MethodName: Quit
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -710,7 +710,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1289424958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92a1837e46bc2da43964861c1138f5c6, type: 3}
+  m_Script: {fileID: 11500000, guid: a074a16c2b833dc4bba11c456c7eb07b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1362362391
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: Quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 85a08e768b0d4be41868c64f230ec355, type: 2}
   m_sharedMaterial: {fileID: 4658077196364870431, guid: 85a08e768b0d4be41868c64f230ec355, type: 2}
