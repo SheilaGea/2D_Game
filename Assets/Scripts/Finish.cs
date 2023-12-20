@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class finish : MonoBehaviour
+public class Finish : MonoBehaviour
 {
     private AudioSource finishSound;
     private bool levelCompleted = false;

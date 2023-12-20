@@ -4,9 +4,8 @@ using TMPro;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int apples = 0;
+    // Remove the private int apples = 0; as it's not needed here.
     [SerializeField] private TextMeshProUGUI applesText;
-
     [SerializeField] private AudioSource collectionSoundEffect;
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -15,9 +14,16 @@ public class ItemCollector : MonoBehaviour
         {
             collectionSoundEffect.Play();
             Destroy(collision.gameObject);
-            apples++;
-            applesText.text = " Apples: " + apples;
+            // Update the GameData.apples directly.
+            GameData.apples++;
+            applesText.text = " Apples: " + GameData.apples;
         }
+    }
 
+    // Use the Start method to initialize the applesText.
+    private void Start()
+    {
+        applesText.text = " Apples: " + GameData.apples;
     }
 }
+
