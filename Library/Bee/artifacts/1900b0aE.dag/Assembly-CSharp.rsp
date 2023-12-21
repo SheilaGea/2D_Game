@@ -384,6 +384,7 @@
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Rotate.cs"
+"Assets/Scripts/SpikeHead.cs"
 "Assets/Scripts/StartMenu.cs"
 "Assets/Scripts/StickPlatform.cs"
 "Assets/Scripts/WaypointFollower.cs"
