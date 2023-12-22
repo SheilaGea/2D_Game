@@ -380,6 +380,7 @@
 "Assets/Scripts/EndMenu.cs"
 "Assets/Scripts/Finish.cs"
 "Assets/Scripts/GameData.cs"
+"Assets/Scripts/HealthManager.cs"
 "Assets/Scripts/ItemCollector.cs"
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/PlayerMovement.cs"
