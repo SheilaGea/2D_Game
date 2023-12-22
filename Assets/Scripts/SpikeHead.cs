@@ -11,35 +11,34 @@ public class SpikeHead : MonoBehaviour
     [SerializeField] private float waypoint2Speed = 1f; // Speed for Waypoint 2
     [SerializeField] private float waitTime = 2f; // Wait time at Waypoint 2
 
-    private void Update()
+    private void Start()
     {
-        MoveToWaypoint();
+        StartCoroutine(MoveBetweenWaypoints());
     }
 
-    private void MoveToWaypoint()
+    private IEnumerator MoveBetweenWaypoints()
     {
-        float currentSpeed = GetCurrentSpeed();
-        transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointIndex].transform.position, Time.deltaTime * currentSpeed);
-
-        if (Vector2.Distance(waypoints[currentWaypointIndex].transform.position, transform.position) < .1f)
+        while (true)
         {
-            StartCoroutine(WaitForNextWaypoint());
+            float currentSpeed = GetCurrentSpeed();
+            transform.position = Vector2.MoveTowards(transform.position, waypoints[currentWaypointIndex].transform.position, Time.deltaTime * currentSpeed);
+
+            if (Vector2.Distance(waypoints[currentWaypointIndex].transform.position, transform.position) < .1f)
+            {
+                yield return new WaitForSeconds(waitTime);
+                currentWaypointIndex++;
+                if (currentWaypointIndex >= waypoints.Length)
+                {
+                    currentWaypointIndex = 0;
+                }
+            }
+
+            yield return null;
         }
     }
 
     private float GetCurrentSpeed()
     {
         return (currentWaypointIndex == 0) ? waypoint1Speed : waypoint2Speed;
-    }
-
-    private IEnumerator WaitForNextWaypoint()
-    {
-        yield return new WaitForSeconds(waitTime);
-
-        currentWaypointIndex++;
-        if (currentWaypointIndex >= waypoints.Length)
-        {
-            currentWaypointIndex = 0;
-        }
     }
 }
