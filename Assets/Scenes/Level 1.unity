@@ -75219,8 +75219,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3460812416615863637, guid: 17c33ac0da6bbf54bbbc83f87aa6290a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1876067182401994883}
   m_SourcePrefab: {fileID: 100100000, guid: 17c33ac0da6bbf54bbbc83f87aa6290a, type: 3}
+--- !u!1 &1876067182401994882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3460812416615863637, guid: 17c33ac0da6bbf54bbbc83f87aa6290a, type: 3}
+  m_PrefabInstance: {fileID: 1876067182401994881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1876067182401994883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876067182401994882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b52f5358a4a9621468e9c4f3c1ae8405, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  hearts:
+  - {fileID: 1474867481}
+  - {fileID: 953021336}
+  - {fileID: 1140301380}
+  fullHeart: {fileID: 21300000, guid: 925195f59c2ef964a8744ead677dc29c, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 3bc51647b1aa75040960274bbcf64e9d, type: 3}
 --- !u!1001 &2881315840273257241
 PrefabInstance:
   m_ObjectHideFlags: 0
