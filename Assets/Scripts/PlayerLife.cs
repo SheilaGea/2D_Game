@@ -29,7 +29,9 @@ public class PlayerLife : MonoBehaviour
         deathSoundEffect.Play();
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
-
+        GameData.apples = 0;
+        // Restart the level or handle the game over logic.
+        Invoke("RestartLevel", 2f); // You can adjust the delay time.
     }
 
     private void RestartLevel()
