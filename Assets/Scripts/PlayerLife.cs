@@ -10,17 +10,20 @@ public class PlayerLife : MonoBehaviour
 
     [SerializeField] private AudioSource deathSoundEffect;
 
+    // Reference to the HealthManager script
+    public HealthManager healthManager;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>(); 
+        anim = GetComponent<Animator>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            Die(); 
+            Die();
         }
     }
 
@@ -30,6 +33,10 @@ public class PlayerLife : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
         GameData.apples = 0;
+
+        // Decrease health in HealthManager script
+        healthManager.DecreaseHealth();
+
         // Restart the level or handle the game over logic.
         Invoke("RestartLevel", 2f); // You can adjust the delay time.
     }
@@ -38,5 +45,5 @@ public class PlayerLife : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
 }
+

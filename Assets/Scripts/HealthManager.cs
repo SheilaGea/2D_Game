@@ -5,24 +5,28 @@ using UnityEngine.UI;
 
 public class HealthManager : MonoBehaviour
 {
-
     public int health = 3;
-
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
 
-
     // Update is called once per frame
     void Update()
     {
-        foreach (Image img in hearts)
+        for (int i = 0; i < hearts.Length; i++)
         {
-            img.sprite = emptyHeart;
+            if (i < health)
+                hearts[i].sprite = fullHeart;
+            else
+                hearts[i].sprite = emptyHeart;
         }
-        for (int i = 0; i < health; i++)
+    }
+
+    public void DecreaseHealth()
+    {
+        if (health > 0)
         {
-            hearts[i].sprite = fullHeart;
+            health--;
         }
     }
 }
